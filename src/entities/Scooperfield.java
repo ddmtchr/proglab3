@@ -19,7 +19,7 @@ public class Scooperfield extends Human implements LoseAll, JobChanger {
 
     public void setProperty(Manufacture p) {
         this.property = p;
-        System.out.println("Пероснаж " + this.getName() + " владеет " + p.getName());
+        System.out.println("Персонаж " + this.getName() + " владеет " + p.getName());
     }
 
     @Override
